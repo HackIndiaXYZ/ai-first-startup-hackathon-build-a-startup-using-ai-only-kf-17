@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![StudyMate landing screen](studymate/public/studymate-assets/screenshots/landing-hero.png)
+![StudyMate landing screen](public/studymate-assets/screenshots/landing-hero.png)
 
 ### Turn your notes into a complete study session: upload, learn, practice, earn, export.
 
@@ -24,8 +24,7 @@
 | Item | Details |
 |---|---|
 | Track | Creative Apps |
-| Main demo route | https://studymate-pro.up.railway.app/ |
-| Youtube Demo Video | https://youtu.be/juA3TgNflFY?feature=shared|
+| Main demo route | `/demo` |
 | Microsoft IQ layer | Microsoft Foundry IQ |
 | Copilot proof | GitHub Copilot workflow plus a local MCP server |
 | Core hook | Learn course material through Plain Mode, Story Mode, Exam Prep, XP, and a revision PDF |
@@ -55,7 +54,7 @@ Upload material
 
 <div align="center">
 
-<img src="studymate/public/studymate-assets/matey/matey-welcome.png" alt="Matey, the StudyMate coach" width="180" />
+<img src="public/studymate-assets/matey/matey-welcome.png" alt="Matey, the StudyMate coach" width="180" />
 
 *Your personal study coach, always in your corner.*
 
@@ -77,7 +76,7 @@ Matey is the friendly guide who turns StudyMate from a blank chat box into a com
 
 | Landing | Upload And Coach | Revision Reward |
 |:---:|:---:|:---:|
-| ![StudyMate landing page](studymate/public/studymate-assets/screenshots/landing-hero.png) | ![Upload screen with Matey coach](studymate/public/studymate-assets/screenshots/demo-upload.png) | ![Revision PDF reward screen](studymate/public/studymate-assets/screenshots/reward-screen.png) |
+| ![StudyMate landing page](public/studymate-assets/screenshots/landing-hero.png) | ![Upload screen with Matey coach](public/studymate-assets/screenshots/demo-upload.png) | ![Revision PDF reward screen](public/studymate-assets/screenshots/reward-screen.png) |
 | *Start the judge-ready demo* | *Load material and follow Matey* | *Earn XP and unlock the PDF* |
 
 </div>
@@ -88,7 +87,7 @@ Matey is the friendly guide who turns StudyMate from a blank chat box into a com
 
 | Client Scenario | Courtroom Scenario | Matey Thinking |
 |:---:|:---:|:---:|
-| <img src="studymate/public/studymate-assets/story-law-client-office.png" alt="Law story mode client scenario" width="260" /> | <img src="studymate/public/studymate-assets/story-law-courtroom.png" alt="Law story mode courtroom scenario" width="260" /> | <img src="studymate/public/studymate-assets/matey/matey-thinking.png" alt="Matey thinking through a study problem" width="180" /> |
+| <img src="public/studymate-assets/story-law-client-office.png" alt="Law story mode client scenario" width="260" /> | <img src="public/studymate-assets/story-law-courtroom.png" alt="Law story mode courtroom scenario" width="260" /> | <img src="public/studymate-assets/matey/matey-thinking.png" alt="Matey thinking through a study problem" width="180" /> |
 
 </div>
 
@@ -96,7 +95,7 @@ Matey is the friendly guide who turns StudyMate from a blank chat box into a com
 
 <div align="center">
 
-![StudyMate certificate reward](studymate/public/studymate-assets/reward-certificate.png)
+![StudyMate certificate reward](public/studymate-assets/reward-certificate.png)
 
 *Earn XP, review weak areas, and download a revision PDF you can keep.*
 
@@ -109,7 +108,7 @@ Matey is the friendly guide who turns StudyMate from a blank chat box into a com
 Judges can open `/demo` for the complete flow. No account is needed.
 
 ```text
-https://studymate-pro.up.railway.app/
+http://localhost:3000/demo
 ```
 
 The demo includes:
@@ -127,11 +126,11 @@ The demo includes:
 
 | Step 1 - Landing | Step 2 - Load Material | Step 3 - Story Context |
 |:---:|:---:|:---:|
-| ![Landing page](studymate/public/studymate-assets/screenshots/landing-hero.png) | ![Upload and demo material screen](studymate/public/studymate-assets/screenshots/demo-upload.png) | ![Story Mode legal scenario](studymate/public/studymate-assets/story-law-client-office.png) |
+| ![Landing page](public/studymate-assets/screenshots/landing-hero.png) | ![Upload and demo material screen](public/studymate-assets/screenshots/demo-upload.png) | ![Story Mode legal scenario](public/studymate-assets/story-law-client-office.png) |
 
 | Step 4 - Courtroom Practice | Step 5 - XP Feedback | Step 6 - PDF Reward |
 |:---:|:---:|:---:|
-| ![Courtroom scenario](studymate/public/studymate-assets/story-law-courtroom.png) | ![Reward feedback screen](studymate/public/studymate-assets/screenshots/reward-screen.png) | ![Revision certificate](studymate/public/studymate-assets/reward-certificate.png) |
+| ![Courtroom scenario](public/studymate-assets/story-law-courtroom.png) | ![Reward feedback screen](public/studymate-assets/screenshots/reward-screen.png) | ![Revision certificate](public/studymate-assets/reward-certificate.png) |
 
 </div>
 
@@ -173,6 +172,7 @@ Next.js App Router
 
 <div align="center">
 
+![StudyMate pipeline preview](public/studymate-assets/demo-pipeline.png)
 
 </div>
 
@@ -251,7 +251,7 @@ Expected format:
 ## Quick Start
 
 ```bash
-git clone https://github.com/JATIN-PANDAY/Study-Mate.git
+git clone https://github.com/adetorojeremiahfadesayo/Hackmic.git
 cd Hackmic/studymate
 npm install
 cp .env.example .env.local
@@ -330,7 +330,7 @@ Add these when you have them:
 
 <div align="center">
 
-<img src="studymate/public/studymate-assets/matey/matey-celebrate.png" alt="Matey celebrating" width="120" />
+<img src="public/studymate-assets/matey/matey-celebrate.png" alt="Matey celebrating" width="120" />
 
 *Good luck. Now go ace that exam.*
 
